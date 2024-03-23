@@ -546,6 +546,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative{
+  position: relative;
+}
+
 .bg-main{
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
@@ -559,10 +563,72 @@ video {
   font-size: 16px;
 }
 
+.text-card-heading{
+  font-size: 1.25em;
+}
+
+.text-extrasmall{
+  font-size: 0.8125em;
+}
+
+.text-medium{
+  font-size: 1.5em;
+}
+
+.text-small{
+  font-size: 0.9375em;
+}
+
+.font-extralight{
+  font-weight: 200;
+}
+
+.font-regular{
+  font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.leading-23{
+  line-height: 1.4375em;
+}
+
+.leading-25{
+  line-height: 1.5625em;
+}
+
 .leading-base{
   line-height: 1.5;
 }
 
 .tracking-base{
+  letter-spacing: 1.5px;
+}
+
+.tracking-body{
+  letter-spacing: 0.00625em;
+}
+
+.tracking-body-card{
+  letter-spacing: 0.0056em;
+}
+
+.tracking-heading{
+  letter-spacing: 0.106em;
+}
+
+.tracking-heading-card{
   letter-spacing: 0;
+}
+
+@media (min-width: 640px){
+  .sm\:text-large{
+    font-size: 2.25em;
+  }
+
+  .sm\:tracking-heading-lg{
+    letter-spacing: 0.0156em;
+  }
 }

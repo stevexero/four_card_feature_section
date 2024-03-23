@@ -1,5 +1,8 @@
 <!doctype html>
-<html lang="en" class="leading-base tracking-base text-base">
+<html
+  lang="en"
+  class="leading-base tracking-base font-poppins text-base font-regular"
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,14 +15,22 @@
     <link rel="stylesheet" href="/output.css" />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body class="bg-main font-poppins">
+  <body class="relative bg-main font-poppins">
     <main>
       <section>
         <header>
-          <h1>Reliable, efficient delivery</h1>
-          <h2>Powered by Technology</h2>
+          <h1
+            class="tracking-heading sm:tracking-heading-lg text-medium font-extralight sm:text-large"
+          >
+            Reliable, efficient delivery
+          </h1>
+          <h2
+            class="tracking-heading sm:tracking-heading-lg text-medium font-semibold sm:text-large"
+          >
+            Powered by Technology
+          </h2>
         </header>
-        <p>
+        <p class="leading-25 tracking-body text-small">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
@@ -27,9 +38,15 @@
       <section>
         <article>
           <header>
-            <h3>Supervisor</h3>
+            <h3
+              class="leading-23 tracking-heading-card text-card-heading font-semibold"
+            >
+              Supervisor
+            </h3>
           </header>
-          <p>Monitors activity to identify project roadblocks</p>
+          <p class="tracking-body-card text-extrasmall">
+            Monitors activity to identify project roadblocks
+          </p>
           <footer>
             <img
               src="/images/icon-supervisor.svg"
@@ -39,9 +56,13 @@
         </article>
         <article>
           <header>
-            <h3>Team Builder</h3>
+            <h3
+              class="leading-23 tracking-heading-card text-card-heading font-semibold"
+            >
+              Team Builder
+            </h3>
           </header>
-          <p>
+          <p class="tracking-body-card text-extrasmall">
             Scans our talent network to create the optimal team for your project
           </p>
           <footer>
@@ -53,9 +74,15 @@
         </article>
         <article>
           <header>
-            <h3>Karma</h3>
+            <h3
+              class="leading-23 tracking-heading-card text-card-heading font-semibold"
+            >
+              Karma
+            </h3>
           </header>
-          <p>Regularly evaluates our talent to ensure quality</p>
+          <p class="tracking-body-card text-extrasmall">
+            Regularly evaluates our talent to ensure quality
+          </p>
           <footer>
             <img
               src="/images/icon-karma.svg"
@@ -65,9 +92,13 @@
         </article>
         <article>
           <header>
-            <h3>Calculator</h3>
+            <h3
+              class="leading-23 tracking-heading-card text-card-heading font-semibold"
+            >
+              Calculator
+            </h3>
           </header>
-          <p>
+          <p class="tracking-body-card text-extrasmall">
             Uses data from past projects to provide better delivery estimates
           </p>
           <footer>
@@ -81,7 +112,7 @@
     </main>
 
     <footer>
-      <p class="attribution">
+      <p class="text-extrasmall font-extralight">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
