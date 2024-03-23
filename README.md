@@ -48,7 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Analyze design files and note margins and paddings
   ![Design Blocks / Containers](./images/screenshots/mpss.png)
 - Analyze design files and note font faces, weights, sizes, leading, and tracking
-  ![Design Blocks / Containers](./images/screenshots/typographyss.png)
+  ![Design Blocks / Containers](./images/screenshots/typography.png)
 - Analyze design files and note colors
   ![Design Blocks / Containers](./images/screenshots/colorsss.png)
 - Initialize Git and GitHub
