@@ -82,7 +82,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
 - X - [@steve_xero](https://www.twitter.com/steve_xero)
 
-## Inspiration
+## Inspirational Quote
+
+#### If you need a boost
 
 - [It does not matter how slowly you go as long as you do not stop](https://medium.com/@officialprpatel002/it-does-not-matter-how-slowly-you-go-as-long-as-you-do-not-stop-confucius-77e3030ed326)
 - [Confucius](https://www.britannica.com/biography/Confucius)
