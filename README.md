@@ -60,6 +60,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Clean up index.html
 - Set up [Tailwind CSS](https://tailwindcss.com/)
 - Set up semantic HTML tags
+- Set up Font configuration in Tailwind
 
 ### Built with
 
@@ -72,11 +73,38 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+- How to set up prettier for tailwind
+
+1. Install `prettier-plugin-tailwindcss` as a dev-dependency
+
+```sh
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+2. Create a `prettier.config.js` file then add the plugin and include your Tailwind configuration file path
+
+```js
+// prettier.config.js
+module.exports = {
+  plugins: ["prettier-plugin-tailwindcss"],
+  tailwindConfig: "./tailwind.config.js",
+};
+```
+
+- If you need more customization, [go here](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/blob/main/README.md)
+
+- I learned how to fix Unknown at rule @tailwindcss (unknownAtRules) in VS Code using [this site](https://flaviocopes.com/fix-unknown-at-rule-tailwind/)
+
+![Error Screenshot](./images/screenshots/errorss.png)
+
+> Open a CSS file in your project, and from the VS Code Command Palette choose “Change Language Mode”, then pick “Tailwind CSS” from the list.
+
 ### Continued development
 
 ### Useful resources
 
 - [Tailwind Documentation](https://tailwindcss.com/docs/installation)
+- [Prettier Plugin Tailwind](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/blob/main/README.md)
 
 ## Author
 
@@ -86,9 +114,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
 - X - [@steve_xero](https://www.twitter.com/steve_xero)
 
-## Inspirational Quote
-
-#### If you need a boost
+## Inspirational Quote for when you need a pick-me-up
 
 - [It does not matter how slowly you go as long as you do not stop](https://medium.com/@officialprpatel002/it-does-not-matter-how-slowly-you-go-as-long-as-you-do-not-stop-confucius-77e3030ed326)
 - [Confucius](https://www.britannica.com/biography/Confucius)
