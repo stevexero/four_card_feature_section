@@ -43,6 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Download starter and design files
 - Read through READMEs and orient myself with the project
+- Copy README template file and clean up. Begin documenting relevent sections
+- Copy images files to begin importing process screenshots
 - Analyze design files and note design blocks (containers)
   ![Design Blocks / Containers](./images/screenshots/containersss.png)
 - Analyze design files and note margins and paddings
@@ -52,6 +54,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Analyze design files and note colors
   ![Design Blocks / Containers](./images/screenshots/colorsss.png)
 - Initialize Git and GitHub
+- Copy starter files
+- Clean up index.html
 
 ### Built with
 
