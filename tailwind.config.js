@@ -22,6 +22,7 @@ module.exports = {
         "card-heading": "1.25em",
         small: "0.9375em",
         extrasmall: "0.8125em",
+        footer: "14px",
       },
       fontWeight: {
         extralight: 200,
@@ -40,6 +41,9 @@ module.exports = {
         "heading-card": 0,
         body: "0.00625em",
         "body-card": "0.0056em",
+      },
+      maxWidth: {
+        heading: "33.75em",
       },
     },
   },

@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="/output.css" />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body class="relative bg-main font-poppins">
-    <main>
-      <section>
-        <header>
+  <body class="relative min-h-screen bg-main font-poppins">
+    <main class="flex flex-col items-center">
+      <section class="max-w-heading">
+        <header class="text-center">
           <h1
             class="tracking-heading sm:tracking-heading-lg text-medium font-extralight sm:text-large"
           >
@@ -30,13 +30,13 @@
             Powered by Technology
           </h2>
         </header>
-        <p class="leading-25 tracking-body text-small">
+        <p class="leading-25 tracking-body text-center text-small">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </section>
-      <section>
-        <article class="bg-card border-border-1 border-t-4">
+      <section class="flex flex-col sm:flex-row">
+        <article class="bg-card border-border-1 flex flex-col border-t-4">
           <header>
             <h3
               class="leading-23 tracking-heading-card text-card-heading font-semibold"
@@ -47,50 +47,53 @@
           <p class="tracking-body-card text-extrasmall">
             Monitors activity to identify project roadblocks
           </p>
-          <footer>
+          <footer class="self-end">
             <img
               src="/images/icon-supervisor.svg"
               alt="Magnifying glass illustation"
             />
           </footer>
         </article>
-        <article class="bg-card border-border-2 border-t-4">
-          <header>
-            <h3
-              class="leading-23 tracking-heading-card text-card-heading font-semibold"
-            >
-              Team Builder
-            </h3>
-          </header>
-          <p class="tracking-body-card text-extrasmall">
-            Scans our talent network to create the optimal team for your project
-          </p>
-          <footer>
-            <img
-              src="/images/icon-team-builder.svg"
-              alt="House positioned on a website screen illustation"
-            />
-          </footer>
-        </article>
-        <article class="bg-card border-border-3 border-t-4">
-          <header>
-            <h3
-              class="leading-23 tracking-heading-card text-card-heading font-semibold"
-            >
-              Karma
-            </h3>
-          </header>
-          <p class="tracking-body-card text-extrasmall">
-            Regularly evaluates our talent to ensure quality
-          </p>
-          <footer>
-            <img
-              src="/images/icon-karma.svg"
-              alt="Shining light bulb with a gear inside illustation"
-            />
-          </footer>
-        </article>
-        <article class="bg-card border-border-4 border-t-4">
+        <div>
+          <article class="bg-card border-border-2 flex flex-col border-t-4">
+            <header>
+              <h3
+                class="leading-23 tracking-heading-card text-card-heading font-semibold"
+              >
+                Team Builder
+              </h3>
+            </header>
+            <p class="tracking-body-card text-extrasmall">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <footer class="self-end">
+              <img
+                src="/images/icon-team-builder.svg"
+                alt="House positioned on a website screen illustation"
+              />
+            </footer>
+          </article>
+          <article class="bg-card border-border-3 flex flex-col border-t-4">
+            <header>
+              <h3
+                class="leading-23 tracking-heading-card text-card-heading font-semibold"
+              >
+                Karma
+              </h3>
+            </header>
+            <p class="tracking-body-card text-extrasmall">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <footer class="self-end">
+              <img
+                src="/images/icon-karma.svg"
+                alt="Shining light bulb with a gear inside illustation"
+              />
+            </footer>
+          </article>
+        </div>
+        <article class="bg-card border-border-4 flex flex-col border-t-4">
           <header>
             <h3
               class="leading-23 tracking-heading-card text-card-heading font-semibold"
@@ -101,7 +104,7 @@
           <p class="tracking-body-card text-extrasmall">
             Uses data from past projects to provide better delivery estimates
           </p>
-          <footer>
+          <footer class="self-end">
             <img
               src="/images/icon-calculator.svg"
               alt="Desktop computer with graphs illustation"
@@ -111,8 +114,8 @@
       </section>
     </main>
 
-    <footer>
-      <p class="text-extrasmall font-extralight">
+    <footer class="absolute bottom-0 w-screen text-center">
+      <p class="text-footer font-extralight">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a

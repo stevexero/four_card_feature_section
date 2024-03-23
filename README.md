@@ -65,6 +65,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Refactor font sizes, tracking, and leading to em from px
 - Set up color configuration in Tailwind
 - Apply color classes to elements
+- Apply layout (Grid, Flex)
 
 ### Built with
 
