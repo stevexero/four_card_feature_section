@@ -56,10 +56,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Initialize Git and GitHub
 - Copy starter files
 - Clean up index.html
+- Set up [Tailwind CSS](https://tailwindcss.com/)
 
 ### Built with
 
 - Semantic HTML5 markup
+- Tailwind CSS
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -71,8 +73,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation)
 
 ## Author
 
