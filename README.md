@@ -76,9 +76,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Steve Xero](https://www.stevexero.com) - under construction
+- Old [Website](https://www.steven-woodward.com)
+- GitHub - [Steve Xero](https://www.github.com/stevexero)
+- Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
+- X - [@steve_xero](https://www.twitter.com/steve_xero)
+
+## Inspiration
+
+- [It does not matter how slowly you go as long as you do not stop](https://medium.com/@officialprpatel002/it-does-not-matter-how-slowly-you-go-as-long-as-you-do-not-stop-confucius-77e3030ed326)
+- [Confucius](https://www.britannica.com/biography/Confucius)
 
 ## Acknowledgments
 
