@@ -60,9 +60,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Clean up index.html
 - Set up [Tailwind CSS](https://tailwindcss.com/)
 - Set up semantic HTML tags
-- Set up Font configuration in Tailwind
+- Set up font configuration in Tailwind
 - Apply font classes to elements
-- Refactor font sizes to em from px
+- Refactor font sizes, tracking, and leading to em from px
+- Set up color configuration in Tailwind
+- Apply color classes to elements
 
 ### Built with
 
