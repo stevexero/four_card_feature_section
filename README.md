@@ -53,10 +53,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   ![Design Blocks / Containers](./images/screenshots/typography.png)
 - Analyze design files and note colors
   ![Design Blocks / Containers](./images/screenshots/colorsss.png)
+- Analyze design files and note images sizes
+  ![Design Blocks / Containers](./images/screenshots/imagesss.png)
 - Initialize Git and GitHub
 - Copy starter files
 - Clean up index.html
 - Set up [Tailwind CSS](https://tailwindcss.com/)
+- Set up semantic HTML tags
 
 ### Built with
 
