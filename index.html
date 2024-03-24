@@ -16,96 +16,127 @@
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body class="relative min-h-screen bg-main font-poppins">
-    <main class="flex flex-col items-center">
-      <section class="max-w-heading">
+    <main class="flex flex-col items-center p-8">
+      <!-- Hero Section -->
+      <section class="max-w-heading pb-12 pt-12">
         <header class="text-center">
           <h1
-            class="tracking-heading sm:tracking-heading-lg text-medium font-extralight sm:text-large"
+            class="tracking-heading md:tracking-heading-lg text-medium font-extralight md:text-large"
           >
             Reliable, efficient delivery
           </h1>
           <h2
-            class="tracking-heading sm:tracking-heading-lg text-medium font-semibold sm:text-large"
+            class="tracking-heading md:tracking-heading-lg text-medium font-semibold md:-mt-1 md:text-large"
           >
             Powered by Technology
           </h2>
         </header>
-        <p class="leading-25 tracking-body text-center text-small">
+        <p
+          class="tracking-body mt-4 text-center text-small leading-6 opacity-50 md:mt-3"
+        >
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </section>
-      <section class="flex flex-col sm:flex-row">
-        <article class="bg-card border-border-1 flex flex-col border-t-4">
-          <header>
+
+      <!-- Card Section -->
+      <section
+        class="flex flex-col items-center md:mt-4 md:max-w-6xl md:flex-row"
+      >
+        <!-- Card 1 -->
+        <article
+          class="bg-card border-border-1 shadow-c mt-6 flex flex-col rounded-lg border-t-4 p-7 pt-6 md:mt-0 md:p-8"
+        >
+          <header class="md:-mt-1">
             <h3
               class="leading-23 tracking-heading-card text-card-heading font-semibold"
             >
               Supervisor
             </h3>
           </header>
-          <p class="tracking-body-card text-extrasmall">
+          <p
+            class="tracking-body-card max-w-72 text-extrasmall leading-6 opacity-50 md:mt-1"
+          >
             Monitors activity to identify project roadblocks
           </p>
-          <footer class="self-end">
+          <footer class="mt-4 self-end md:mt-10">
             <img
+              class="w-14 md:w-16"
               src="/images/icon-supervisor.svg"
               alt="Magnifying glass illustation"
             />
           </footer>
         </article>
-        <div>
-          <article class="bg-card border-border-2 flex flex-col border-t-4">
-            <header>
+        <div class="md:ml-8 md:mr-8">
+          <!-- Card 2 -->
+          <article
+            class="bg-card border-border-2 shadow-c mt-6 flex flex-col rounded-lg border-t-4 p-7 pt-6 md:mt-0 md:p-8"
+          >
+            <header class="md:-mt-1">
               <h3
                 class="leading-23 tracking-heading-card text-card-heading font-semibold"
               >
                 Team Builder
               </h3>
             </header>
-            <p class="tracking-body-card text-extrasmall">
+            <p
+              class="tracking-body-card max-w-72 text-extrasmall leading-6 opacity-50 md:mt-1"
+            >
               Scans our talent network to create the optimal team for your
               project
             </p>
-            <footer class="self-end">
+            <footer class="mt-4 self-end md:mt-10">
               <img
+                class="w-14 md:w-16"
                 src="/images/icon-team-builder.svg"
                 alt="House positioned on a website screen illustation"
               />
             </footer>
           </article>
-          <article class="bg-card border-border-3 flex flex-col border-t-4">
-            <header>
+          <!-- Card 3 -->
+          <article
+            class="bg-card border-border-3 shadow-c mt-6 flex flex-col rounded-lg border-t-4 p-7 pt-6 md:mt-8 md:p-8"
+          >
+            <header class="md:-mt-1">
               <h3
                 class="leading-23 tracking-heading-card text-card-heading font-semibold"
               >
                 Karma
               </h3>
             </header>
-            <p class="tracking-body-card text-extrasmall">
+            <p
+              class="tracking-body-card max-w-72 text-extrasmall leading-6 opacity-50 md:mt-1"
+            >
               Regularly evaluates our talent to ensure quality
             </p>
-            <footer class="self-end">
+            <footer class="mt-4 self-end md:mt-10">
               <img
+                class="w-14 md:w-16"
                 src="/images/icon-karma.svg"
                 alt="Shining light bulb with a gear inside illustation"
               />
             </footer>
           </article>
         </div>
-        <article class="bg-card border-border-4 flex flex-col border-t-4">
-          <header>
+        <!-- Card 4 -->
+        <article
+          class="bg-card border-border-4 shadow-c mb-12 mt-6 flex flex-col rounded-lg border-t-4 p-7 pt-6 md:mb-0 md:mt-0 md:p-8"
+        >
+          <header class="md:-mt-1">
             <h3
               class="leading-23 tracking-heading-card text-card-heading font-semibold"
             >
               Calculator
             </h3>
           </header>
-          <p class="tracking-body-card text-extrasmall">
+          <p
+            class="tracking-body-card max-w-72 text-extrasmall leading-6 opacity-50 md:mt-1"
+          >
             Uses data from past projects to provide better delivery estimates
           </p>
-          <footer class="self-end">
+          <footer class="mt-4 self-end md:mt-10">
             <img
+              class="w-14 md:w-16"
               src="/images/icon-calculator.svg"
               alt="Desktop computer with graphs illustation"
             />
@@ -114,8 +145,9 @@
       </section>
     </main>
 
+    <!-- Footer -->
     <footer class="absolute bottom-0 w-screen text-center">
-      <p class="text-footer font-extralight">
+      <p class="text-footer font-extralight opacity-50">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a

@@ -66,6 +66,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Set up color configuration in Tailwind
 - Apply color classes to elements
 - Apply layout (Grid, Flex)
+- Apply margins and paddings
 
 ### Built with
 

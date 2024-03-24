@@ -25,8 +25,8 @@ module.exports = {
         footer: "14px",
       },
       fontWeight: {
-        extralight: 200,
-        regular: 400,
+        extralight: 100,
+        regular: 300,
         semibold: 600,
       },
       lineHeight: {
@@ -36,7 +36,7 @@ module.exports = {
       },
       letterSpacing: {
         base: 1.5,
-        heading: "0.106em",
+        heading: "0.0106em",
         "heading-lg": "0.0156em",
         "heading-card": 0,
         body: "0.00625em",
@@ -44,6 +44,10 @@ module.exports = {
       },
       maxWidth: {
         heading: "33.75em",
+        "card-max-w": "21.875em",
+      },
+      boxShadow: {
+        c: "0 15px 30px -11px rgba(131, 166, 210, 0.5)",
       },
     },
   },
