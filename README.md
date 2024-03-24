@@ -67,6 +67,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Apply color classes to elements
 - Apply layout (Grid, Flex)
 - Apply margins and paddings
+- Check for zoom accessibility
 
 ### Built with
 
