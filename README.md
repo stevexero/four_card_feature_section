@@ -23,10 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop](./images/screenshots/dtss.png)
+![Mobile](./images/screenshots/mobss.png)
+![Zoom](./images/screenshots/zmss.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Four Card Feature](https://fourcardfeaturefementor.netlify.app/)
 
 ## My process
 
